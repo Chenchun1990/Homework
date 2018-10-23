@@ -22,6 +22,6 @@
             public static double fahrenheitToCelsius(double fahrenheit)
             
    题二  计算正多边形的面积
-                                n * s^2
-                        面积 = -------------     其中 n 为多边形的边数  s 是多边形的边长 
-                                4 * tan(π/n)    π = Math.PI  tan函数 Math.tan(double d)
+                                
+                        面积 = n * s^2 /(4 * tan(π/n))     其中 n 为多边形的边数  s 是多边形的边长 
+                                                           π = Math.PI  tan函数 Math.tan(double d)
