@@ -9,17 +9,15 @@
    题一 将输入的字符串倒序输出 如输入 hello 输出 olleh <br />
    题二 自行设置一个敏感词 自己找一段文字 并将该文字中的敏感词替换掉 用 ** 表示<br />
    题三 判断一段文字是否是回文文字  如果一段文字正则念和反着念是一样的 该文字就是回文字符串 如 aabbaa 就是回文字符串 上海自来水来自海上 也是一个回文字符串<br />
-   题四 猜首都游戏  用一个二维数组存储国家和首都  程序随机出一个国家  让玩家猜首都 如果猜对了就记一分  猜错了不给分  一共出10道题让玩家猜 10道题后程序输
-   出玩家一共猜对了多少道题  然后程序结束。
+   题四 猜首都游戏  用一个二维数组存储国家和首都  程序随机出一个国家  让玩家猜首都 如果猜对了就记一分  猜错了不给分  一共出10道题让玩家猜 10道题后程序输出玩家一共猜对了多少道题  然后程序结束。
    
 第四次作业
    题一 编写2个方法实现摄氏温度和华氏温度的互相转换
         方法一  
             摄氏温度转华氏温度
-            public static double celsiusToFahrenheit(double celsius)
+            public static double celsiusToFahrenheit(double celsius)<br />
         方法二   华氏温度转摄氏温度
-            public static double fahrenheitToCelsius(double fahrenheit)
-            
+            public static double fahrenheitToCelsius(double fahrenheit)<br />            
    题二  计算正多边形的面积
                                 
                         面积 = n * s^2 /(4 * tan(π/n))     其中 n 为多边形的边数  s 是多边形的边长 
